@@ -14,8 +14,8 @@ Si tienes interés en descubrir más extensiones de VScode, puedes leer [este ar
 
 
 
-### [01. Conociendo el poder de FlexBox](./RevisionDeCodigo/README.md).
-### [02. Rodapie responsivo](./Refactorizacion/README.md).
-### [03. Menu lateral Mobile-First](./AumentandoSemantica/README.md).
-### [04. Menu flexible](./HerramientasAnalisis/README.md).
-### [05. Videos Flex-grow](./HerramientasAnalisis/README.md).
+### [01. Conociendo el poder de FlexBox](./poderDelFlexbox/README.md).
+### [02. Rodapie responsivo](./rodapieResponsivo/README.md).
+### [03. Menu lateral Mobile-First](./menu_Movile-first/README.md).
+### [04. Menu flexible](./menuFlexible/README.md).
+### [05. Videos Flex-grow](./menuFlex-grow/README.md).
