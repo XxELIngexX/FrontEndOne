@@ -12,3 +12,8 @@ Aquí están los dos videos que quiero compartir:
 
 ## Video 2: Explicación del proyecto
 [![Video 2](https://img.youtube.com/vi/7o9b3gkCA0E/0.jpg)](https://www.youtube.com/watch?v=7o9b3gkCA0E)
+
+## Lectura recomendada
+
+Para entender mejor el tema de BEM y su aplicación en CSS, te recomiendo leer este artículo: [CSS y el Patrón BEM](./markdowns/CSS-y-PatronBEM.md).
+
