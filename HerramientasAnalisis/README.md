@@ -1,75 +1,75 @@
 
 [Aquí](https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git) puedes descargar los archivos del proyecto que hemos avanzado hasta el aula anterior.
 
-## 01: Refactorando el banner
-[![Video 1](https://img.youtube.com/vi/LAc4G6TrYoU/0.jpg)](https://www.youtube.com/watch?v=LAc4G6TrYoU)
+## 01: Conociendo Lighthouse
+[![Video 1](https://img.youtube.com/vi/AXvsUgkV2ts/0.jpg)](https://www.youtube.com/watch?v=AXvsUgkV2ts)
 
-## 02: Etiquetas semánticas
-[![Video 5](https://img.youtube.com/vi/se3Qq2xfRE0/0.jpg)](https://www.youtube.com/watch?v=se3Qq2xfRE0)
+## 02: Semántica y sintaxis
+[![Video 5](https://img.youtube.com/vi/nEkLXvvnyps/0.jpg)](https://www.youtube.com/watch?v=nEkLXvvnyps)
 
-## 03: Desafio
+## 03: Para saber más: Google Lighthouse
 
-Llegó tu turno de evolucionar un poquito más el sitio de la Jornada.
+**¡Hola!**
 
-Mejora la semántica del banner y de las etiquetas principales. ¡Siéntete libre de usar tu IA Generativa favorita!
+¿Listo para llevar el mundo de Lighthouse al siguiente nivel? En nuestra última charla, te presenté esta increíble herramienta, pero ahora quiero mostrarte algunos matices que pueden marcar la diferencia en tu flujo de trabajo.
 
-## 3.1: Opinión del instructor
+**1. Análisis profundo de accesibilidad:**
 
-¿Puedes darte cuenta de que los pequeños detalles marcan la diferencia?
+Lighthouse va más allá de lo básico al evaluar la accesibilidad. Considera los criterios de WCAG, pautas ampliamente reconocidas para la accesibilidad web. Si profundizas en los informes de accesibilidad, notarás recomendaciones específicas relacionadas con prácticas de HTML semántico. Esto te proporciona un mapa sobre cómo garantizar que tu sitio sea inclusivo y esté optimizado.
 
-Y hablando de pequeños detalles, [dejo el GitHub disponible](https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git) para que puedas ver exactamente lo que hicimos en clase.
+**2. Comprensión de métricas:**
 
-Observa que GitHub presenta con claridad todas las modificaciones realizadas, destacando lo que se eliminó y lo que se añadió, así como la línea correspondiente.
+¿Has notado que, además de darte una puntuación, Lighthouse detalla cada métrica? Por ejemplo, "First Contentful Paint" y "Time to Interactive". Cada una de estas métricas te ofrece información valiosa sobre cómo funciona tu sitio y cómo el HTML semántico puede tener un impacto positivo en estos tiempos.
 
-## 04. cuestionario: Encuentra la semántica correcta
-Durante un café con tu colega desarrolladora, comenzaron a discutir sobre la refactorización del código HTML, agregando semántica y buenas prácticas. En la conversación, un tema que llamó la atención fue la forma adecuada de agregar semántica al HTML. Entonces, decidieron evaluar el siguiente código:
-```
-<div id="header">...</div>
-<div id="main">...</div>
-<div id="footer">...</div>
-```
+**3. IAs generativas y semántica:**
 
-Considerando el contexto de buenas prácticas y semántica HTML, ¿cuál de las siguientes alternativas refactores correctamente este código en términos de semántica y es más fácil de ser interpretada tanto por personas como por mecanismos de búsqueda?
+Quizás te estés preguntando: "¿Qué tienen que ver las IAs generativas con todo esto?" Bueno, al escribir un HTML semántico bien estructurado y optimizarlo según los consejos de Lighthouse, estás ayudando no solo a los humanos, sino también a las IAs a comprender e interpretar tu contenido. Con la creciente integración de IAs en navegadores y herramientas, esta práctica será cada vez más relevante.
 
-   - [ ] codigo:
-  ```html
-<div>...</div> 
-<div>...</div> 
-<div>...</div> 
-```
-   - [ ] codigo:
-```html 
-<top>...</top> 
-<center>...</center> 
-<bottom>...</bottom> 
-```
-   - [ ] codigo:
-```html 
-<head>...</head> 
-<body>...</body> 
-<base>...</base>
-```
-  - [x] codigo:
-  ```html
-  <header>...</header>
-  <main>...</main>
-  <footer>...</footer>
-  ```
+Así que te invito a sumergirte aún más en los informes de Lighthouse, experimentar, ajustar tu código y ver los resultados. Y, por supuesto, siempre que tengas alguna duda o curiosidad, estoy aquí para ayudarte. ¡Vamos juntos en este viaje de aprendizaje y mejora constante!
 
+## 04: Para saber más: PWA - Progressive Web App
 
-```
-El código HTML fue enriquecido con elementos semánticos que representan la estructura de la página: `header`, `main` y `footer`. Estas son etiquetas semánticas HTML5 que ayudan a describir la forma del contenido de la página.
-```
+Cuando exploramos Lighthouse, mencionamos rápidamente el término PWA - Progressive Web App. ¿Recuerdas que dije que te dejaría una tarea para que profundizaras más en este tema? Ven conmigo que te lo explicaré detalladamente.
 
-## 05: Lo que aprendimos
+### Progressive Web App (PWA): ¿Qué es?
+En resumen, un PWA es una aplicación web que se comporta de manera muy similar a una aplicación nativa, es decir, aquellas que descargas desde la tienda de aplicaciones de tu celular. ¿Sabes cuando accedes a un sitio web y te ofrece la opción de "añadir a la pantalla de inicio" y, al hacerlo, actúa casi como una aplicación nativa? ¡Eso es un PWA en acción!
+
+**Principales conceptos involucrados:**
+
+- **Respuesta rápida:** Un PWA necesita ser ágil, incluso con conexiones lentas. Para ello, muchos utilizan "service workers", scripts que el navegador ejecuta en segundo plano, permitiendo, entre otras cosas, la carga sin conexión.
+
+- **Apariencia de app nativa:** Al abrir un PWA, casi olvidas que estás en un navegador. Se ve y se siente como una aplicación nativa, a menudo incluso incluyendo animaciones de transición y gestos.
+
+- **Actualizado:** A través del uso de service workers, un PWA puede mantenerse siempre actualizado. Busca actualizaciones y las aplica automáticamente.
+
+- **Seguridad:** Los PWA utilizan HTTPS, garantizando que la aplicación no sea adulterada durante su transmisión.
+
+- **Instalable:** Como mencioné, puedes añadir un PWA a la pantalla de inicio y acceder a él como si fuera una aplicación nativa, sin necesidad de una tienda de aplicaciones.
+
+- **Enlazable:** A diferencia de las aplicaciones nativas, un PWA es totalmente enlazable, es decir, puedes compartir tu PWA con un simple enlace.
+
+Al analizar tu proyecto con Lighthouse, te dará comentarios sobre cómo está tu implementación de PWA. Si aún no te has aventurado en esta área, es un campo muy interesante para explorar. Además de mejorar la experiencia del usuario, puede brindar ventajas en rendimiento e incluso en SEO.
+
+## 05. Desafío: jornada - Un proyecto para que todos gobiernen
+¡Hola! ¿Recuerdas esa increíble página de inicio que desarrollamos juntos en el curso? Bueno, ¡ahora tengo un desafío aún más emocionante para ti: completar el proyecto!
+
+Echa un vistazo a las otras páginas que están allí en [Figma](https://www.figma.com/design/pkateqzHFqDAkFVHg9Od3C/IA-en-el-Front-end---Latam?node-id=0-1) ¿Te imaginas llevarlas a la vida como hicimos con la página de inicio? Y lo mejor es que puedes elegir cómo hacerlo: ya sea utilizando solo el HTML, JS y CSS que ya hemos visto, o incluso con ese genial framework que estás deseando explorar.
+
+## 5.1: Opinión del instructor
+
+Sabes, la mejor forma de aprender es poniendo manos a la obra, y creo que estás más que preparado para este desafío. Y mira, ¡Gui Lima y yo estaremos atentos! Si aceptas la misión y das la talla, publica el resultado en las redes sociales y etiquétanos. Como prometimos, ¡lo revisaremos y, quién sabe, incluso daremos algunos comentarios!
+
+## 06: Proyecto final
+[Aquí](https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git) puedes descargar los archivos del proyecto completo.
+
+## 07: Lo que aprendimos
 
 Lo que aprendimos en esta aula:
 
-- Utilizar etiquetas semánticas, como `<header>`, `<section>` y `<main>`, para estructurar y dar significado al contenido;
+- Utilizar Lighthouse: Es una herramienta de código abierto automatizada que audita páginas web en términos de rendimiento, accesibilidad, prácticas recomendadas, SEO y PWA (aplicaciones web progresivas). Es una herramienta valiosa para los desarrolladores web porque ayuda a identificar problemas que pueden afectar la experiencia del usuario;
 
-- Describir las imágenes de manera adecuada, cambiando el atributo alt de la imagen para proporcionar una descripción más detallada ("Imagen de las Maldivas");
+- Analizar las principales áreas de evaluación de Lighthouse, como:
 
-- Utilizar `<figure>` y `<figcaption>` para implementar la combinación de etiquetas `<figure>` y `<figcaption>`, asociando una imagen con su respectiva descripción y mejorando la semántica y accesibilidad;
-
-- Realizar una estructuración consistente, ya que la conversión de divisiones genéricas (`<div>`) a elementos semánticos hace que la estructura sea más consistente, facilitando la interpretación por parte de lectores y navegadores.
-
+   - **Rendimiento:** Mide el tiempo de carga de la página, la interactividad y la estabilidad visual. Las recomendaciones pueden incluir optimización de imágenes, mejora de la eficiencia de la caché y reducción del impacto de terceros;
+   - **Accesibilidad:** Evalúa si la página es accesible para todos los usuarios, incluidos aquellos con discapacidades. Las sugerencias pueden incluir mejorar el contraste de colores o agregar descripciones de texto a las imágenes;
+   - **Prácticas Recomendadas:** Verifica el uso de API y prácticas modernas. Esto puede incluir recomendaciones para usar HTTPS, evitar API obsoletas o asegurarse de que el sitio no utilice bibliotecas de JavaScript con vulnerabilidades conocidas.
