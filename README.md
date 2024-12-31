@@ -10,4 +10,4 @@ https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git
 ```
 - O descarga el proyecto [aqui](https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git)
 
-### [01. Tecnicas de revisión de código](./markdowns/CSS-y-PatronBEM.md).
+### [01. Tecnicas de revisión de código](./RevisionDeCodigo/README.md).
