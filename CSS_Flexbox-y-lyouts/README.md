@@ -1,16 +1,15 @@
 # FrontEndOne
 **¡Hola!**
-Espero que sea una experiencia de aprendizaje increíble y que podamos vencer todos los desafíos juntos. En este curso, vamos a revisar y refactorizar código con la ayuda de la IA Generativa.
+Puedes acceder a los archivos en [Github](https://github.com/alura-es-cursos/aluraplay-projecto-final.git).
+también puedes acceder al diseño del proyecto desarrollado en este curso en [Figma](https://www.figma.com/design/g5AmAhCI9dJCXl04pJxL5w/Alura-Play?node-id=0-1&p=f).
 
-Para que puedas seguir el contenido sin grandes problemas, se recomienda que ya tengas conocimiento sobre HTML, CSS y Accesibilidad en la web.
 
-Además, es necesario que ya tengas instalado el Visual Studio Code (VSCode) para seguir adecuadamente la evolución del proyecto.
-```
-https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git
-```
-- O descarga el proyecto [aqui](https://github.com/alura-es-cursos/2090-IA-Generativa-en-el-Front.git)
+Si tienes interés en descubrir más extensiones de VScode, puedes leer [este artículo](https://www.aluracursos.com/blog/extensiones-de-vscode-descubre-cuales-son-las-mas-utilizadas) escrito por la instructora Beatriz Moura.
 
-### [01. Tecnicas de revisión de código](./RevisionDeCodigo/README.md).
-### [02. IA como apoyo en refactorizacion](./Refactorizacion/README.md).
-### [03. Aumentando la semántica](./AumentandoSemantica/README.md).
-### [04. Herramientas de análisis](./HerramientasAnalisis/README.md).
+
+
+### [01. Conociendo el poder de FlexBox](./RevisionDeCodigo/README.md).
+### [02. Rodapie responsivo](./Refactorizacion/README.md).
+### [03. Menu lateral Mobile-First](./AumentandoSemantica/README.md).
+### [04. Menu flexible](./HerramientasAnalisis/README.md).
+### [05. Videos Flex-grow](./HerramientasAnalisis/README.md).
